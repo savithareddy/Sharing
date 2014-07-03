@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9192FA9C1964BD4400A01232 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9192FA9B1964BD4400A01232 /* Foundation.framework */; };
+		9192FA9E1964BD4400A01232 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9192FA9D1964BD4400A01232 /* CoreGraphics.framework */; };
+		9192FAA01964BD4400A01232 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9192FA9F1964BD4400A01232 /* UIKit.framework */; };
+		9192FAA61964BD4400A01232 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9192FAA41964BD4400A01232 /* InfoPlist.strings */; };
+		9192FAA81964BD4400A01232 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9192FAA71964BD4400A01232 /* main.m */; };
+		9192FAAC1964BD4400A01232 /* EPUAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9192FAAB1964BD4400A01232 /* EPUAppDelegate.m */; };
+		9192FAAE1964BD4400A01232 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9192FAAD1964BD4400A01232 /* Images.xcassets */; };
+		9192FAB51964BD4400A01232 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9192FAB41964BD4400A01232 /* XCTest.framework */; };
+		9192FAB61964BD4400A01232 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9192FA9B1964BD4400A01232 /* Foundation.framework */; };
+		9192FAB71964BD4400A01232 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9192FA9F1964BD4400A01232 /* UIKit.framework */; };
+		9192FABF1964BD4400A01232 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9192FABD1964BD4400A01232 /* InfoPlist.strings */; };
+		9192FAC11964BD4400A01232 /* EmailPopUPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9192FAC01964BD4400A01232 /* EmailPopUPTests.m */; };
+		9192FACC1964BD5D00A01232 /* EPUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9192FACB1964BD5D00A01232 /* EPUViewController.m */; };
+		9192FACE1964BD6E00A01232 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9192FACD1964BD6E00A01232 /* MessageUI.framework */; };
+		9192FAD01964C71400A01232 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9192FACF1964C71400A01232 /* Social.framework */; };
+		9192FAD21964D49D00A01232 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9192FAD11964D49D00A01232 /* MobileCoreServices.framework */; };
+		9192FAD41964D71A00A01232 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9192FAD31964D71A00A01232 /* Accounts.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9192FAB81964BD4400A01232 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9192FA901964BD4400A01232 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9192FA971964BD4400A01232;
+			remoteInfo = EmailPopUP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9192FA981964BD4400A01232 /* EmailPopUP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmailPopUP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9192FA9B1964BD4400A01232 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9192FA9D1964BD4400A01232 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9192FA9F1964BD4400A01232 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9192FAA31964BD4400A01232 /* EmailPopUP-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EmailPopUP-Info.plist"; sourceTree = "<group>"; };
+		9192FAA51964BD4400A01232 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9192FAA71964BD4400A01232 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9192FAA91964BD4400A01232 /* EmailPopUP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EmailPopUP-Prefix.pch"; sourceTree = "<group>"; };
+		9192FAAA1964BD4400A01232 /* EPUAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPUAppDelegate.h; sourceTree = "<group>"; };
+		9192FAAB1964BD4400A01232 /* EPUAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPUAppDelegate.m; sourceTree = "<group>"; };
+		9192FAAD1964BD4400A01232 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9192FAB31964BD4400A01232 /* EmailPopUPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmailPopUPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9192FAB41964BD4400A01232 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		9192FABC1964BD4400A01232 /* EmailPopUPTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EmailPopUPTests-Info.plist"; sourceTree = "<group>"; };
+		9192FABE1964BD4400A01232 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9192FAC01964BD4400A01232 /* EmailPopUPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmailPopUPTests.m; sourceTree = "<group>"; };
+		9192FACA1964BD5D00A01232 /* EPUViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EPUViewController.h; sourceTree = "<group>"; };
+		9192FACB1964BD5D00A01232 /* EPUViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EPUViewController.m; sourceTree = "<group>"; };
+		9192FACD1964BD6E00A01232 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		9192FACF1964C71400A01232 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		9192FAD11964D49D00A01232 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		9192FAD31964D71A00A01232 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9192FA951964BD4400A01232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9192FAD41964D71A00A01232 /* Accounts.framework in Frameworks */,
+				9192FAD21964D49D00A01232 /* MobileCoreServices.framework in Frameworks */,
+				9192FAD01964C71400A01232 /* Social.framework in Frameworks */,
+				9192FACE1964BD6E00A01232 /* MessageUI.framework in Frameworks */,
+				9192FA9E1964BD4400A01232 /* CoreGraphics.framework in Frameworks */,
+				9192FAA01964BD4400A01232 /* UIKit.framework in Frameworks */,
+				9192FA9C1964BD4400A01232 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9192FAB01964BD4400A01232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9192FAB51964BD4400A01232 /* XCTest.framework in Frameworks */,
+				9192FAB71964BD4400A01232 /* UIKit.framework in Frameworks */,
+				9192FAB61964BD4400A01232 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9192FA8F1964BD4400A01232 = {
+			isa = PBXGroup;
+			children = (
+				9192FACA1964BD5D00A01232 /* EPUViewController.h */,
+				9192FACB1964BD5D00A01232 /* EPUViewController.m */,
+				9192FAA11964BD4400A01232 /* EmailPopUP */,
+				9192FABA1964BD4400A01232 /* EmailPopUPTests */,
+				9192FA9A1964BD4400A01232 /* Frameworks */,
+				9192FA991964BD4400A01232 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9192FA991964BD4400A01232 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9192FA981964BD4400A01232 /* EmailPopUP.app */,
+				9192FAB31964BD4400A01232 /* EmailPopUPTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9192FA9A1964BD4400A01232 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9192FAD31964D71A00A01232 /* Accounts.framework */,
+				9192FAD11964D49D00A01232 /* MobileCoreServices.framework */,
+				9192FACF1964C71400A01232 /* Social.framework */,
+				9192FACD1964BD6E00A01232 /* MessageUI.framework */,
+				9192FA9B1964BD4400A01232 /* Foundation.framework */,
+				9192FA9D1964BD4400A01232 /* CoreGraphics.framework */,
+				9192FA9F1964BD4400A01232 /* UIKit.framework */,
+				9192FAB41964BD4400A01232 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9192FAA11964BD4400A01232 /* EmailPopUP */ = {
+			isa = PBXGroup;
+			children = (
+				9192FAAA1964BD4400A01232 /* EPUAppDelegate.h */,
+				9192FAAB1964BD4400A01232 /* EPUAppDelegate.m */,
+				9192FAAD1964BD4400A01232 /* Images.xcassets */,
+				9192FAA21964BD4400A01232 /* Supporting Files */,
+			);
+			path = EmailPopUP;
+			sourceTree = "<group>";
+		};
+		9192FAA21964BD4400A01232 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9192FAA31964BD4400A01232 /* EmailPopUP-Info.plist */,
+				9192FAA41964BD4400A01232 /* InfoPlist.strings */,
+				9192FAA71964BD4400A01232 /* main.m */,
+				9192FAA91964BD4400A01232 /* EmailPopUP-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9192FABA1964BD4400A01232 /* EmailPopUPTests */ = {
+			isa = PBXGroup;
+			children = (
+				9192FAC01964BD4400A01232 /* EmailPopUPTests.m */,
+				9192FABB1964BD4400A01232 /* Supporting Files */,
+			);
+			path = EmailPopUPTests;
+			sourceTree = "<group>";
+		};
+		9192FABB1964BD4400A01232 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9192FABC1964BD4400A01232 /* EmailPopUPTests-Info.plist */,
+				9192FABD1964BD4400A01232 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9192FA971964BD4400A01232 /* EmailPopUP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9192FAC41964BD4400A01232 /* Build configuration list for PBXNativeTarget "EmailPopUP" */;
+			buildPhases = (
+				9192FA941964BD4400A01232 /* Sources */,
+				9192FA951964BD4400A01232 /* Frameworks */,
+				9192FA961964BD4400A01232 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmailPopUP;
+			productName = EmailPopUP;
+			productReference = 9192FA981964BD4400A01232 /* EmailPopUP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9192FAB21964BD4400A01232 /* EmailPopUPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9192FAC71964BD4400A01232 /* Build configuration list for PBXNativeTarget "EmailPopUPTests" */;
+			buildPhases = (
+				9192FAAF1964BD4400A01232 /* Sources */,
+				9192FAB01964BD4400A01232 /* Frameworks */,
+				9192FAB11964BD4400A01232 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9192FAB91964BD4400A01232 /* PBXTargetDependency */,
+			);
+			name = EmailPopUPTests;
+			productName = EmailPopUPTests;
+			productReference = 9192FAB31964BD4400A01232 /* EmailPopUPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9192FA901964BD4400A01232 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EPU;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Savitha;
+				TargetAttributes = {
+					9192FAB21964BD4400A01232 = {
+						TestTargetID = 9192FA971964BD4400A01232;
+					};
+				};
+			};
+			buildConfigurationList = 9192FA931964BD4400A01232 /* Build configuration list for PBXProject "EmailPopUP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9192FA8F1964BD4400A01232;
+			productRefGroup = 9192FA991964BD4400A01232 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9192FA971964BD4400A01232 /* EmailPopUP */,
+				9192FAB21964BD4400A01232 /* EmailPopUPTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9192FA961964BD4400A01232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9192FAA61964BD4400A01232 /* InfoPlist.strings in Resources */,
+				9192FAAE1964BD4400A01232 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9192FAB11964BD4400A01232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9192FABF1964BD4400A01232 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9192FA941964BD4400A01232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9192FAA81964BD4400A01232 /* main.m in Sources */,
+				9192FAAC1964BD4400A01232 /* EPUAppDelegate.m in Sources */,
+				9192FACC1964BD5D00A01232 /* EPUViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9192FAAF1964BD4400A01232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9192FAC11964BD4400A01232 /* EmailPopUPTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9192FAB91964BD4400A01232 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9192FA971964BD4400A01232 /* EmailPopUP */;
+			targetProxy = 9192FAB81964BD4400A01232 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9192FAA41964BD4400A01232 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9192FAA51964BD4400A01232 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9192FABD1964BD4400A01232 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9192FABE1964BD4400A01232 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9192FAC21964BD4400A01232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9192FAC31964BD4400A01232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9192FAC51964BD4400A01232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmailPopUP/EmailPopUP-Prefix.pch";
+				INFOPLIST_FILE = "EmailPopUP/EmailPopUP-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9192FAC61964BD4400A01232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmailPopUP/EmailPopUP-Prefix.pch";
+				INFOPLIST_FILE = "EmailPopUP/EmailPopUP-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9192FAC81964BD4400A01232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EmailPopUP.app/EmailPopUP";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmailPopUP/EmailPopUP-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EmailPopUPTests/EmailPopUPTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9192FAC91964BD4400A01232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EmailPopUP.app/EmailPopUP";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EmailPopUP/EmailPopUP-Prefix.pch";
+				INFOPLIST_FILE = "EmailPopUPTests/EmailPopUPTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9192FA931964BD4400A01232 /* Build configuration list for PBXProject "EmailPopUP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9192FAC21964BD4400A01232 /* Debug */,
+				9192FAC31964BD4400A01232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9192FAC41964BD4400A01232 /* Build configuration list for PBXNativeTarget "EmailPopUP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9192FAC51964BD4400A01232 /* Debug */,
+				9192FAC61964BD4400A01232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9192FAC71964BD4400A01232 /* Build configuration list for PBXNativeTarget "EmailPopUPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9192FAC81964BD4400A01232 /* Debug */,
+				9192FAC91964BD4400A01232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9192FA901964BD4400A01232 /* Project object */;
+}
